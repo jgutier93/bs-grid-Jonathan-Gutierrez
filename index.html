@@ -7,6 +7,7 @@
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link href="styles.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/469dfd14a7.js" crossorigin="anonymous"></script>
 <title>Bootstrap Email Template</title>
 </head>
 <body>
@@ -18,19 +19,27 @@
       <h3>Welcome User</h3>
       <button type="button" class="btn btn-secondary">Compose</button>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item active">Inbox</li>
-        <li class="list-group-item">Sent</li>
-        <li class="list-group-item">Deleted</li>
-        <li class="list-group-item">Spam</li>
-        <li class="list-group-item">Trash</li>
+        <li class="list-group-item">Inbox <i class="fa-solid fa-envelope"></i> </li>
+        <li class="list-group-item">Sent <i class="fa-sharp fa-solid fa-paper-plane"></i></li>
+        <li class="list-group-item">Drafts <i class="fa-sharp fa-solid fa-file-pen"></i></li>
+        <li class="list-group-item">Spam <i class="fa-sharp fa-solid fa-xmark"></i></li>
+        <li class="list-group-item">Trash <i class="fa-sharp fa-solid fa-trash"></i></li>
       </ul>
     </div>
     <!--Second Column-->
   <div class="col-sm-12 col-md-8 col-lg-3">
     <form class="d-flex" role="search">
       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
+      <i class="fa-sharp fa-solid fa-magnifying-glass fa-2x"></i> 
     </form>
+    <!--First Message-->
+    <ul class="list-group">
+      <li class="list-group-item"><strong>Michael Scott</strong><br>Meeting in the conference room after I come back from Bowling...</li>
+      <li class="list-group-item"><strong>Dwight K. Schrutte</strong><br>As Assistant Regional Manager I order all associates...</li>
+      <li class="list-group-item"><strong>Jim Halpert</strong><br>Yo, I know what our next prank on Dwight can be...</li>
+      <li class="list-group-item"><strong>Pam Beasely</strong><br> Heyy, You have a message that a customer left at my desk...</li>
+      <li class="list-group-item">And a fifth one</li>
+    </ul>
   </div>
   <div class="col-sm-12 col-md-12 col-lg-6">
     Third Column
