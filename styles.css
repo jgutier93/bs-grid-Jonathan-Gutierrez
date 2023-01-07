@@ -14,7 +14,8 @@ body{
 }
 .imagemike{
     width: 100%
-    margin-top: 100px;
+    margin-top: 115px;
+    padding-top: 10px;
 }
 #profile{
     height:100px;
@@ -38,10 +39,10 @@ body{
     background-color: silver;
 }
 .Inbox-list{
-    background-color: rgb(255, 221, 0);
+    background-color: rgb(130, 232, 255);
 }
 .col-two{
-    background-color: antiquewhite;
+    background-color: rgb(77, 134, 147);
 }
 #Welcome{
     padding-bottom: 5px
