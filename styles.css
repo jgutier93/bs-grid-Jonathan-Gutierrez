@@ -5,9 +5,6 @@ body{
     background-color: navy;
 }
 
-h3{
-    padding-bottom: 5px
-}
 
 .list-group{
     padding-top: 20px
@@ -19,7 +16,7 @@ h3{
     width: 100%
     margin-top: 100px;
 }
-img{
+#profile{
     height:100px;
     width: 100px;
     display: block;
@@ -28,11 +25,28 @@ img{
     border: 4px solid 
 
 }
-.img-container{
+#banner{
     background-image: url("images/space.jpeg");
-    height: 70%;
+    height: 100px;
+    width: 2000px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+.col-one{
+    background-color: silver;
+}
+.Inbox-list{
+    background-color: rgb(255, 221, 0);
+}
+.col-two{
+    background-color: antiquewhite;
+}
+#Welcome{
+    padding-bottom: 5px
+    padding-left: 5px;
+    padding-top: 3px;
+    text-align: center;
+    
 }
